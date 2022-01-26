@@ -1,0 +1,23 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.env
+.venv
+*.egg-info
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# checkpoints
+/.ipynb_checkpoints/
+.ipynb_checkpoints/
+*-checkpoint.*
+
+# model joblibs
+cdk_pipelines/local/model/model.joblib
+cdk_pipelines/local/model/model.tar.gz
+
+#ide
+.idea

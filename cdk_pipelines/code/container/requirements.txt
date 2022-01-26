@@ -1,0 +1,7 @@
+gunicorn
+flask
+simplejson
+numpy
+gevent
+joblib
+scikit-learn

@@ -1,0 +1,27 @@
+.
+├── LICENSE.txt
+├── Makefile
+├── README.md
+├── app.py
+├── cdk.json
+├── cdk_pipelines
+│   ├── __init__.py
+│   ├── code
+│   │   └── functions
+│   │       ├── inference
+│   │       └── layers
+│   ├── config
+│   │   ├── config_mux.py
+│   │   ├── constants.py
+│   │   ├── inf-dev
+│   │   │   ├── constants.py
+│   │   │   ├── ddb-tables.yml
+│   │   │   └── endpoint-config.yml
+│   │   └── inf-prod
+│   │       ├── constants.py
+│   │       └── endpoint-config.yml
+│   ├── deploy_model_pipeline_stack.py
+│   ├── deploy_model_stack.py
+│   └── inference_stack.py
+├── requirements.txt
+└── setup.py
