@@ -126,3 +126,16 @@ This command could fail in the following cases:
   - Docker is having an issue so restart your docker deamon
   - Refresh your awscli credentials
   - Clear all cached cdk outputs by running `make clean`
+
+## Security
+
+See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+
+## License
+
+This library is licensed under the MIT-0 License. See the LICENSE file.
+
+## Authors
+- Fatema Alkhanaizi (https://github.com/Fatema)
+- Francesco Vito Lorenzo (https://github.com/iPhra)
+- Laurens Ten Cate (https://github.com/Laurenstc)
